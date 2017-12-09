@@ -24,23 +24,26 @@ Rules to flatten the tree
 
 Input
 
-A &#2192; B
-<br>&#2193; <br>
+A -> B <br>
+|<br>
++<br>
 C
 
 Output
 
-A &#2192; C &#2192; B
+A -> C -> B
 
 
 Input
 
-A &#2192; B
-<br>&#2193; <br>
-C &#2192; D &#2192; F
-<br>&#2193; <br>
+A -> B <br>
+|<br>
++<br>
+C -> D -> F <br>
+|<br>
++<br>
 E
 
 Output
 
-A &#2192; C &#2192; E &#2192; D &#2192; F &#2192; B
+A -> C -> E -> D -> F -> B
