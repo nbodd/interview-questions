@@ -22,19 +22,19 @@ Rules to flatten the tree
 
 ### Example
 
-Input
+#### Input
 
 A -> B <br>
 |<br>
 +<br>
 C
 
-Output
+#### Output
 
 A -> C -> B
 
 
-Input
+#### Input
 
 A -> B <br>
 |<br>
@@ -44,6 +44,6 @@ C -> D -> F <br>
 +<br>
 E
 
-Output
+#### Output
 
 A -> C -> E -> D -> F -> B
