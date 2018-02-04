@@ -86,7 +86,16 @@ int main()
 		n = n->next;
 	}
 
+    ASSERT(&B == A.next);
+    ASSERT(&C == B.next);
+    ASSERT(&D == C.next);
+    ASSERT(&E == D.next);
+    ASSERT(&F == E.next);
+    ASSERT(&G == F.next);
+    ASSERT(&H == G.next);
+    ASSERT(&I == H.next);
+    ASSERT(&J == I.next);
 
-	std::getchar();
+    std::cout << "\nSUCCESS!!\n";
 	return 0;
 }
